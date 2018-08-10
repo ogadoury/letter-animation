@@ -14,8 +14,8 @@ function startTrans() {
 function resetTrans() {
 	var letter = $('#letter');
 	letter.animate({
-	left: -6,
-	top: 10
+	left: -8,
+	top: 8
 	}, 3000, 'swing', function() {
 		startTrans()
 	});
