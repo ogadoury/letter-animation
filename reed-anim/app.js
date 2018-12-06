@@ -3,9 +3,9 @@
 function startTrans() {
 	var letter = $('#letter');
 	letter.animate({
-	left: 158,
-	top: 148
-	}, 3000, 'swing', function() {
+		left: 158,
+		top: 186,
+	}, 4000, 'swing', function() {
 		resetTrans();
 	});
 }
@@ -14,9 +14,9 @@ function startTrans() {
 function resetTrans() {
 	var letter = $('#letter');
 	letter.animate({
-	left: -8,
-	top: 8
-	}, 3000, 'swing', function() {
+		top:-34,
+		left:-4
+	}, 4000, 'swing', function() {
 		startTrans()
 	});
 }
@@ -25,9 +25,3 @@ function resetTrans() {
 $(function() {
 	startTrans();
 });
-
-
-
-// FUNCTION FOR STICKY DOTS
-
-
